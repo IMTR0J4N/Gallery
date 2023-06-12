@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+:root {
+    --title-font: 'Montserrat', sans-serif;
+    --text-font: 'Poppins', sans-serif;
+}
+
+header {
+    font-family: var(--title-font);
+    width: 100%;
+    background-color: cadetblue;
+}
+
+header > div {
+    height: 70px;
+    width: 100%;
+}
+
+header > div > h1 {
+    width: fit-content;
+    padding-left: 45%;
+}
+
+header > div > h1::first-letter {
+    text-transform: uppercase;
+}
+
+header > div > img {
+    position: absolute;
+    margin-left: 90%;
+    width: 120px;
+    top: 0;
+}
+
+header > nav > ul {
+    height: 40px;
+    display: flex;
+    border-top: 1px black dashed;
+    justify-content: center;    
+    align-items: center;
+    gap: 300px;
+}
+
+main {
+    font-family: var(--text-font);
+    width: 100%;
+}
+
+.main--wrapper {
+    position: relative;
+    display: flex;
+    padding: 70px 40px;
+    width: 100%;
+}
+
+.main--wrapper > aside {
+    width: 10%;
+    background-color: cadetblue;
+    margin-top: 35px;
+}
+
+.main--aside--ul {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main--aside--ul--li {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main--aside--ul--li > span::first-letter {
+    text-transform: uppercase;
+}
+
+.main--aside--ul--li:hover {
+    cursor: pointer;
+}
+
+.main--section {
+    position: relative;
+    left: 75px;
+    width: 80%;
+}
+
+.main--section > h2 {
+    width: 100%;
+    text-align: right;
+}
+
+.main--section--ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.ul--li--article {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    gap: 50px;
+    border: 1px black solid;
+} 
+
+.li--article--img {
+    width: 50%;
+}
+
+.main--section--div-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.main--section--div--btn {
+    height: 30px;
+    width: 80px;
+    background-color: lightseagreen;
+    font-family: var(--text-font);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+hr {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: gray;
+    font-family: var(--title-font);
+}
+
+footer > img {
+    width: 100px;
+}
+
+footer > small, footer > small > a{
+    margin-top: 10px;
+}

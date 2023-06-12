@@ -1,14 +1,131 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <title></title>
-</head>
-<body>
-  
-  <script src="./src/js/app.js" type="module"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Galerie website" />
+    <title>Galerie</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>galerie</h1>
+        <img
+          src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.edenschool.fr">Link 1</a>
+          </li>
+          <li>
+            <a href="https://www.edenschool.fr">Link 2</a>
+          </li>
+          <li>
+            <a href="https://www.edenschool.fr">Link 3</a>
+          </li>
+          <li>
+            <a href="https://www.edenschool.fr">Link 4</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main--wrapper">
+        <aside>
+          <ul class="main--aside--ul">
+            <li class="main--aside--ul--li" id="cat1">
+              <span>cat 1</span>
+            </li>
+            <li class="main--aside--ul--li" id="cat2">
+              <span>cat 2</span>
+            </li>
+            <li class="main--aside--ul--li" id="cat3">
+              <span>cat 3</span>
+            </li>
+            <hr>
+            <li class="main--aside--ul--li" id="noCat">
+              <span>Remove Filter</span>
+            </li>
+          </ul>
+        </aside>
+        <section class="main--section">
+          <h2 id="cat">Category 1</h2>
+          <ul class="main--section--ul" id="articlesContainer">
+          <!--<li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>
+            <li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>
+            <li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>
+            <li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>
+            <li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>
+            <li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>
+            <li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>
+            <li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>
+            <li class="main--section--ul--li">
+              <article class="ul--li--article">
+                <img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="" class="li--article--img">
+                <h3 class="li--article--h3">Titre</h3>
+              </article>
+            </li>-->
+          </ul> 
+
+          <div class="main--section--div-container">
+            <button class="main--section--div--btn" id="previousBtn"> Previous </button>
+            <button class="main--section--div--btn" id="nextBtn"> Next </button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <img
+        src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png"
+        alt=""
+      />
+      <small
+        >Copyright <a href="https://www.edenschool.fr">EdenSchool</a></small
+      >
+    </footer>
+    <script src="./src/js/app.js" type="module"></script>
+  </body>
 </html>
